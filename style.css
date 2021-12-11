@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkgray;
+}
+
+/* .block {
+    text-align: center;
+} */
+
+/* .block_row {
+  border: 20px solid #ece89d;
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+} */
+
+/* .block_column {
+  border: 20px solid #5e5373;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.block_item {
+  background-color: #18b5a4;
+  padding: 20px 50px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.block_item2 {
+  background-color: #18b5a4;
+  padding: 20px 170px;
+}
+ */
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* .header-wrapper {
+  display: flex;
+  max-width: 1500px;
+} */
+
+.header {
+  margin-top: 6px;
+  display: flex;
+  border: 2px solid #ece89d;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: darkslategray;
+}
+
+.logo {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo_text {
+  padding: 5px 30px;
+  border: 2px solid #5e5373;
+  background-color: cadetblue;
+  font-size: larger;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.ul-list {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.list_item .link_item {
+  text-decoration: none;
+}
+
+.list_item {
+  border: 2px solid #5e5373;
+  padding: 7px 40px;
+  background-color: cadetblue;
+  font-size: larger;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.main-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.top {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.top-first,
+.top-second,
+.top-third {
+  border: 7px solid #5e5373;
+  padding: 150px 100px;
+  background-color: cadetblue;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+.bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bottom-first,
+.bottom-second,
+.bottom-third {
+  border: 7px solid #5e5373;
+  padding: 150px 100px;
+  background-color: cadetblue;
+  font-size: larger;
+  border-radius: 5px;
+}
